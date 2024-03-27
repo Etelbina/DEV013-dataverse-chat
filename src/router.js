@@ -6,7 +6,6 @@ let rootElement; // variable reference to html element uninitialized
  * This function initializes rootElement with the value passed to the parameter
  * @param { expects routes{} } newRootElementValue - which comes from index.js
  */
-
 export const setRootElement = (newRootElementValue) => {
   rootElement = newRootElementValue;
 };
@@ -18,7 +17,6 @@ export const setRootElement = (newRootElementValue) => {
  * converting RUTES into the param guiven
  * @param { in an object } newRoutesValue - from index.js
  */
-
 export const setRoutes = (newRoutesValue) => {
   // optional Throw errors if routes isn't an object and doesnt exist /Notfound
   if (typeof newRoutesValue === "object") {
